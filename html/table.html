@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../script/jquery.validate.min.js"></script>
+        <script>
+            var name1 = localStorage.getItem('name1');
+            var age1 = localStorage.getItem('age1');
+            var nm = localStorage.getItem('nm');
+            var email1 = localStorage.getItem('email1');
+            var gd = localStorage.getItem('gd');
+            var t1 = localStorage.getItem('t1');
+            var t2 = localStorage.getItem('t2');
+            var t3 = localStorage.getItem('t3');
+            var t4 = localStorage.getItem('t4');
+            var t5 = localStorage.getItem('t5');
+            var t6 = localStorage.getItem('t6');
+            var t7 = localStorage.getItem('t7');
+
+        </script>
+    </head>
+    <body>
+        <form action="" >
+            <table class="t2">
+                <thead>
+                    <tr class="tborder twidth">
+                        <th class="tborder">Name</th>
+                        <th class="tborder">Age</th>
+                        <th class="tborder">Phone No.</th>
+                        <th class="tborder">Email</th>
+                        <th class="tborder">Gender</th>
+                        <th class="tborder">Sunday</th>
+                        <th class="tborder">Monday</th>
+                        <th class="tborder">Tuesday</th>
+                        <th class="tborder">Wednesday</th>
+                        <th class="tborder">Thursday</th>
+                        <th class="tborder">Friday</th>
+                        <th class="tborder">Saturday</th>
+                    </tr>
+                </thead>
+                <tbody id="output" class="tborder">
+                    <tr>
+                        <td id="name1" class="tborder"><script>document.write(name1)</script></td>
+                        <td id="age1" class="tborder"><script>document.write(age1)</script></td>
+                        <td id="nm" class="tborder"><script>document.write(nm)</script></td>
+                        <td id="email1" class="tborder"><script>document.write(email1)</script></td>
+                        <td id="gd" class="tborder"><script>document.write(gd)</script></td>
+                        <td id="t1" class="tborder"><script>document.write(t1)</script></td>
+                        <td id="t2" class="tborder"><script>document.write(t2)</script></td>
+                        <td id="t3" class="tborder"><script>document.write(t3)</script></td>
+                        <td id="t4" class="tborder"><script>document.write(t4)</script></td>
+                        <td id="t5" class="tborder"><script>document.write(t5)</script></td>
+                        <td id="t6" class="tborder"><script>document.write(t6)</script></td>
+                        <td id="t7" class="tborder"><script>document.write(t7)</script></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        
+        <script src="../script/myscript.js"></script>
+    </body>
+</html>

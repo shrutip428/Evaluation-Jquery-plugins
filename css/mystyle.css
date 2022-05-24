@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(223, 243, 247);
+}
+.whole-form{
+    height:auto;
+    width:800px;
+    margin-left: 265px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(61, 57, 57);
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: left;
+}
+.line{
+    border: 1px solid rgb(218, 209, 209);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flex-grid{
+    display: flex;
+    flex-direction: row;
+}
+.boxheight{
+    height:35px;
+    border: 1px solid rgb(160, 150, 150);
+    border-radius: 5px;
+}
+.boxheight1{
+    height:35px;
+    border: 1px solid rgb(160, 150, 150);
+    border-radius: 5px;
+}
+.boxheight:hover{
+    border-color: rgb(48, 48, 175);
+}
+.table-width{
+    width:186px;
+    text-align: center;
+}
+.table-width1{
+    width:80px;
+    text-align: center;
+}
+.m1{
+    margin-left: 75px;
+}
+.m2{
+    margin-left: 10px;
+}
+.m3{
+    margin-left: 2px;
+}
+.m4{
+    margin-left: 10%;
+}
+.p1{
+    padding-left: 75px;
+}
+
+.textbox1{
+    width:38%;
+    height:35px;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 5px;
+}
+/* .textbox1:hover{
+    border-color: rgb(48, 48, 175);
+} */
+
+.textbox2{
+    width:80%;
+    border: 1px solid rgb(218, 209, 209);
+    height:35px;
+    border-radius: 5px;
+}
+.textbox2:hover{
+    border-color: rgb(48, 48, 175);
+}
+
+.t1{
+    border: 1px solid rgb(218, 209, 209);
+}
+.t2{
+    border-collapse: collapse;
+}
+.label-color{
+    color:rgb(160, 150, 150);
+}
+.txtboxclr{
+    border: 1px solid rgb(160, 150, 150);
+}
+.btn{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 156, 39);
+    color: white;
+    height:50px;
+    width: 30%;
+    border: none;
+    margin-top: -40px;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 20px;
+}
+.table-clr{
+    background-color: rgb(224, 224, 230);
+}
+
+.error{
+    vertical-align: top;
+}
+.p2{
+    padding-left: -40px;
+}
+.wtable{
+    width:80%
+}
+.twidth{
+    width:400px;
+}
+.tborder{
+        border: 2px solid rgb(104, 120, 153);
+        width:200px;
+        text-align: center;
+}
+.parent-checkbox{
+
+}
+.child-checkbox1{
+
+}
+.child-checkbox2{
+
+}

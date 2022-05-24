@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../script/jquery.validate.min.js"></script>
+    </head>
+    <body>
+      <div class="whole-form">
+        <h1 class="title">Customer Details:</h1>
+        <div class="line"></div>
+        <form action="../html/table.html" method="get" id="formdemo">
+            
+            <label for="name" class="p1 heading">Name:<span style="color: red;">*</span></label>
+            <input type="text" id="name" name="name" class="boxheight" size="39" style="margin-left:100px;"><br><br>
+
+            <label for="age" class="p1 heading">Age:<span style="color: red;">*</span></label>
+            <input type = "text" id="age" name="age" class="txtboxclr textbox1" style="margin-left:113px;" min="8" max="25">
+            <br> <br>
+
+            <label for="number" class="p1 heading">Phone Number:<span style="color: red;">*</span></label>
+            <input type = "text" id="number" name="number" placeholder="(000) 000 - 0000" class="txtboxclr textbox1" max="7899999999" style="margin-left:25px;">
+            <br> <br>
+
+            <label for="email" class="p1 heading">E-mail:<span style="color: red;">*</span></label>
+            <input type = "text" id="email" name="email" placeholder="ex: email@yahoo.com" class="txtboxclr textbox1" style="margin-left:90px;"> <br>
+            <br><br>
+
+            <label for="gender" class="p1 heading">Gender: </label>
+            <input type="radio" id="male" name="gender" value="male" class="txtboxclr gender">
+            <label for="male" class="heading">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" class="txtboxclr gender">
+            <label for="female" class="heading">Female</label>
+
+            <input type="radio" id="others" name="gender" value="others" class="txtboxclr gender">
+            <label for="others" class="heading">Others</label>
+            <br> <br>
+            <div class="container">
+            <div class="parent-checkbox">
+            <input type = "checkbox" id="checkbox1" name="checkbox1" value="" class="txtboxclr m1">
+            <label for="checkbox1" class="heading">Next-Day Configuration<span style="color: red;">*</span></label><br>
+            <label class="label-color" style="padding-left: 95px">Set Next-day Pickup Time</label>
+            <br><br>
+            </div>
+
+            <div class="child-checkbox">
+            <input type = "checkbox" id="checkbox2" name="checkbox2" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox2" class="heading">Sunday</label>
+            <select id="time1" name="time1" class="textbox1 sun" style="margin-left:80px;">
+              
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox3" name="checkbox3" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox3" class="heading">Monday</label>
+            <select id="time2" name="time2" class="textbox1 mon" style="margin-left:74px;">
+              
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox4" name="checkbox4" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox4" class="heading">Tuesday</label>
+            <select id="time3" name="time3" class="textbox1 tue" style="margin-left:75px;">
+              
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox5" name="checkbox5" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox5" class="heading">Wednesday</label>
+            <select id="time4" name="time4" class="textbox1 wed" style="margin-left:50px;">
+              
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox6" name="checkbox6" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox6" class="heading">Thursday</label>
+            <select id="time5" name="time5" class="textbox1 thur" style="margin-left:65px;">
+           
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox7" name="checkbox7" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox7" class="heading">Friday</label>
+            <select id="time6" name="time6" class="textbox1 fri" style="margin-left:90px;">
+             
+            </select>
+            <br><br>
+
+            <input type = "checkbox" id="checkbox8" name="8" value="" class="txtboxclr m1 checkbox1">
+            <label for="checkbox8" class="heading">Saturday</label>
+            <select id="time7" name="time7" class="textbox1 sat" style="margin-left:70px;">
+
+            </select>
+            <br><br>
+          </div>
+            <div class="line"></div>
+            <br><br>
+            <input type="submit" value="Submit" class="m1 btn"  onclick=" return validate()" id="btnsubmit">
+
+            <br> <br> 
+        </form>
+      </div>
+    </div>
+      <script src="../script/myscript.js"></script>
+    </body>
+</html>
